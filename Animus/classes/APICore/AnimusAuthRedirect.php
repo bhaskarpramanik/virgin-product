@@ -9,7 +9,7 @@
 /**
  * Description of AnimusAuthRedirect
  *
- * @author bbhask1x
+ * @author bhaskarpramanik
  */
 require_once "AnimusTemporaryRedirect.php";
 

@@ -2,6 +2,7 @@
 
 	/*
 	**	Abstract Class View
+    *   @author bhaskarpramanik
 	*/
 
 	interface AnimusView{	

@@ -7,7 +7,7 @@
 /**
  * Description of AnimusUserComponent
  *
- * @author Animus Inc.
+* @author bhaskarpramanik
  */
 require_once ABSTRACTPATH.'AnimusComponent.php';
 

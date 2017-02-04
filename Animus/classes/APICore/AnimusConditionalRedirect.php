@@ -15,7 +15,7 @@
  * user data during redirection and pass on to the previous view,
  * once the purpose of the redirection is met.
  * 
- * @author bbhask1x
+ * @author bhaskarpramanik
  */
 require_once "AnimusRedirectImpl.php";
 class AnimusConditionalRedirect extends AnimusRedirectImpl {
