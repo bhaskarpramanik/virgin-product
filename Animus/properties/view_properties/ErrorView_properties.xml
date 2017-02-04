@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view name = "ErrorView">
+    <properties>
+        <property name = "VIEW_PATH" value = "/views/ErrorView.php" />
+        <property name = "VIEW_TYPE" value = "static" />
+        <property name = "VIEW_ALLOW_URL_PARAMS" value = "" />
+        <property name = "VIEW_PARAMS" value = "" />
+        <property name = "AUTH_REQUIRED" value = "" />
+        <property name = "AUTH_VIEW_URL" value = "" />
+        <property name = "AUTH_SIGNATURE" value = "" />
+        <property name = "VIEW_REDIRECTED" value = "" />
+        <property name = "VIEW_REDIRECT_CODE" value = "" />
+        <property name = "VIEW_REDIRECT_RESC_URL" value = "" />
+        <property name = "PHASE_MAINT" value = "false" />
+        <property name = "PHASE_MAINT_START" value = "" />
+        <property name = "PHASE_MAINT_STOP" value = "" />
+        <property name = "MAPPED_COMPONENT" value = "" />
+        <property name = "MAPPED_MODELS" value = "" />
+    </properties>
+</view>
