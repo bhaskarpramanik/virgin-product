@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- assets.xml contains details of the following things
+* Components
+* Models
+* Views
+* DataSets
+-->
+<assets>
+    <models>
+        <model name = "IndexModel" path = "IndexModel.php" />
+    </models>
+    <components>
+        <component name = "IndexComponent" path = "IndexComponent.php" />
+    </components>
+    <views>
+        <view name = "IndexView" path = "IndexView.php" />
+        <view name = "StaticView" path = "StaticView.php" />
+        <view name = "ErrorView" path = "ErrorView.php" />
+    </views>
+    <datasets>
+        <dataset name = "IndexDataset" path = "IndexDataset.php" />
+    </datasets>
+    <htmls>
+        <html name = "static-view-demo.html" path = "static-page-demo.html"/>
+        <html name = "contact-us.html" path = "contact-us.html" />
+        <html name = "basic-login.html" path = "basic-login.html" />
+        <html name = "401.html" path = "401.html" />
+        <html name = "403.html" path = "403.html" />
+        <html name = "404.html" path = "404.html" />
+        <html name = "500.html" path = "500.html" />
+        <html name = "503.html" path = "503.html" />
+    </htmls>
+</assets>
