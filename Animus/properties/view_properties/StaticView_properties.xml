@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view name = "StaticView">
+    <properties>
+        <property name = "VIEW_PATH" value = "/views/StaticViewDemo.php" />
+        <property name = "VIEW_TYPE" value = "static" />
+        <property name = "VIEW_ALLOW_URL_PARAMS" value = "false" />
+        <property name = "VIEW_PARAMS" value = "" />
+        <property name = "AUTH_REQUIRED" value = "false" />
+        <property name = "AUTH_VIEW_URL" value = "" />
+        <property name = "AUTH_SIGNATURE" value = "" />
+        <property name = "VIEW_REDIRECTED" value = "false" />
+        <property name = "VIEW_REDIRECT_CODE" value = "" />
+        <property name = "VIEW_REDIRECT_RESC_URL" value = "" />
+        <property name = "PHASE_MAINT" value = "false" />
+        <property name = "PHASE_MAINT_START" value = "" />
+        <property name = "PHASE_MAINT_STOP" value = "" />
+        <!--Use "," as delimiter to separate (if) more than one component-->
+        <property name = "MAPPED_COMPONENT" value = "" />
+        <!--Use "," as delimiter to separate (if) more than one Model-->
+        <property name = "MAPPED_MODELS" value = ""/>
+        <!--Use "," as delimiter to separate (if) more than one dataset-->
+        <property name = "MAPPED_DATASET" value = ""/>
+    </properties>
+</view>
