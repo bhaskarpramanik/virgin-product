@@ -1,0 +1,11 @@
+<?xml	version="1.0" encoding="iso-8859-1" ?>
+<routes>
+    <view name="IndexView" url-pattern="#^/Animus/(index.php(/?))?$#"/> <!-- Index -->
+    <view name="StaticView" url-pattern="#^/Animus/static-view-demo.html(/?)$#"/> <!--Static Demo Page -->
+    <view name="StaticView" url-pattern="#^/Animus/basic-login.html(/?)$#"/>
+    <view name="StaticView" url-pattern="#^/Animus/contact-us.html(/?)$#"/>
+    <view name="ErrorView" url-pattern="#^/Animus/error/401.html(/?)$#"/>
+    <view name="ErrorView" url-pattern="#^/Animus/error/404.html(/?)$#"/>
+    <view name="ErrorView" url-pattern="#^/Animus/error/500.html(/?)$#"/>
+    <view name="ErrorView" url-pattern="#^/Animus/error/503.html(/?)$#"/>
+</routes>

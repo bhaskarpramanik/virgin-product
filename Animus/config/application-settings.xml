@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<application-settings>
+    <application-mode name="DEVELOPMENT" />
+    <session timeout ="5" /> <!-- Session timeout in minutes-->
+    <route-description name="routes.xml" path="/config"/>
+    <views path="/views/" />
+    <components path="/components/" />
+    <models path="/models/" />
+    <assets path="/assets" />
+    <datasets path = "/datasets/"/>
+    <static path="/static/" />
+    <html path="/static/html/" />
+    <view-properties path="/properties/view_properties/" />
+    <mode-property>
+        <property name="DEVELOPMENT" logging="1" log-level="DEBUG" display-error="1" user-data-logging="TRUE" />
+        <property name="PRODUCTION" logging="1" log-level="FATAL" display-error="0" user-data-logging="TRUE" /> 
+    </mode-property>
+    <logpath>
+        <deployment-errors>/log/animus-deployment-errors.log</deployment-errors>
+        <debug>/log/animus-debug.log</debug>
+        <errors>/log/animus-error.log</errors>
+    </logpath>
+    <maintenance duration = "24"/>  <!--Default Duration in hours-->
+    <error-pages>
+        <error-page name = "401" path = "/error/401.html" url="/Animus/error/401.html" redirect="false"/>
+        <error-page name = "403" path = "/error/403.html" url="/Animus/error/403.html" redirect="true"/>
+        <error-page name = "404" path = "/error/404.html" url="/Animus/error/404.html" redirect="false"/>
+        <!--Caution Note:
+            Setting redirect = true for error page 500 can potentially set off an infinite loop-->
+        <error-page name = "500" path = "/error/500.html" url="/Animus/error/500.html" redirect="true"/>
+        <error-page name = "503" path = "/error/503.html" url="/Animus/error/503.html" redirect="true"/>
+    </error-pages>
+</application-settings>
