@@ -11,8 +11,8 @@
         <property name = "VIEW_REDIRECTED" value = "false" />
         <property name = "VIEW_REDIRECT_CODE" value = "302" />
         <property name = "VIEW_REDIRECT_RESC_URL" value = "/Animus/static-view-demo.html" />
-        <property name = "PHASE_MAINT" value = "true" />
-        <property name = "PHASE_MAINT_START" value = "1486232048" />
+        <property name = "PHASE_MAINT" value = "false" />
+        <property name = "PHASE_MAINT_START" value = "" />
         <property name = "PHASE_MAINT_STOP" value = "" />
         <!--Use "," as delimiter to separate (if) more than one component-->
         <property name = "MAPPED_COMPONENT" value = "IndexComponent" />
